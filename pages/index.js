@@ -12,11 +12,11 @@ export default function HomePage({ news }) {
         {news && news.map((item) => (
           <NewsItem key={item.id} news={item} />
         ))}
-        {/* {news.length > 0 && (
+        {news.length > 0 && (
           <Link href="/news">
             <a className="btn-secondary">View All News</a>
           </Link>
-        )} */}
+        )}
       </Layout>
     </div>
   );
