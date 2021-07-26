@@ -2,8 +2,8 @@ import { useRouter } from "next/router";
 import Layout from "../../components/Layout"
 import Link from "next/link";
 import Image from "next/image";
-import { API_URL } from "@/config/index";
-import styles from "@/styles/News.module.css";
+import { API_URL } from "../../config/index";
+import styles from "../../styles/News.module.css";
 
 export default function SingleNews({ news }) {
   const router = useRouter();

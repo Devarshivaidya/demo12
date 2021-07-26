@@ -1,7 +1,7 @@
 import Link from "next/link";
 import Layout from "../components/Layout"
-import { API_URL } from "@/config/index";
-import NewsItem from "@/components/NewsItem";
+import { API_URL } from "../config/index";
+import NewsItem from "../components/NewsItem";
 
 export default function HomePage({ news }) {
   return (
