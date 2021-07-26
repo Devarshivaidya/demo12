@@ -10,6 +10,7 @@ export default function NewsItem({ news }) {
           src={news.image ? news.image : "No Image"}
           width={150}
           height={100}
+          alt="News image"
         />
       </div>
       <div className={styles.info}>
@@ -18,11 +19,11 @@ export default function NewsItem({ news }) {
         </span>
         <h3>{news.name}</h3>
       </div>
-      <div className={styles.link}>
+      {/* <div className={styles.link}>
         <Link href={`/news/${news.slug}`}>
           <a className="btn">Read More</a>
         </Link>
-      </div>
+      </div> */}
     </div>
   );
 }
