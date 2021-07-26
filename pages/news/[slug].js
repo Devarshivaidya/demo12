@@ -1,5 +1,5 @@
 import { useRouter } from "next/router";
-import Layout from "@/components/Layout";
+import Layout from "../../components/Layout"
 import Link from "next/link";
 import Image from "next/image";
 import { API_URL } from "@/config/index";

@@ -1,5 +1,5 @@
 import Link from "next/link";
-import Layout from "@/components/Layout";
+import Layout from "../../components/Layout"
 import { API_URL } from "@/config/index";
 import NewsItem from "@/components/NewsItem";
 import styles from "@/styles/News.module.css";
