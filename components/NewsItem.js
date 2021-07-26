@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import styles from "@/styles/NewsItem.module.css";
+import styles from "../styles/NewsItem.module.css";
 
 export default function NewsItem({ news }) {
   return (
